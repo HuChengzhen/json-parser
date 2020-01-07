@@ -104,14 +104,14 @@ public class JsonParserHelper {
         return list;
     }
 
-    private double readNumber() {
+    private Double readNumber() {
         StringBuilder builder = new StringBuilder();
         builder.append(chars[current++]);
         while (betweenNumber(chars[current])) {
             builder.append(chars[current++]);
         }
         String numberString = builder.toString();
-        return Double.parseDouble(numberString);
+        return Double.valueOf(numberString);
     }
 
     private boolean betweenNumber(char c) {

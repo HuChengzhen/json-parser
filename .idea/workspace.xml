@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d589f15-fd39-4dbe-961d-d0d9eabf9f8a" name="Default Changelist" comment="" />
+    <list default="true" id="2d589f15-fd39-4dbe-961d-d0d9eabf9f8a" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/json-parser/com/huchengzhen/json/JsonParserHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/json-parser/com/huchengzhen/json/JsonParserHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/json-parser/com/huchengzhen/json/JsonParserTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/json-parser/com/huchengzhen/json/JsonParserTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huchengzhen/json/JsonParserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huchengzhen/json/JsonParserHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huchengzhen/json/JsonParserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huchengzhen/json/JsonParserTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +20,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1W0vP5wCGQtZv0TKRp41hp6n0aP" />
   <component name="ProjectViewState">
@@ -26,6 +36,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -39,7 +50,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.JsonParserTests.test2">
+  <component name="RunManager" selected="JUnit.JsonParserTests.tests">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -77,6 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JsonParserTests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="json-parser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huchengzhen.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huchengzhen.json" />
+      <option name="MAIN_CLASS_NAME" value="com.huchengzhen.json.JsonParserTests" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JsonParserTests.tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="json-parser" />
       <extension name="coverage">
@@ -95,8 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JsonParserTests.test2" />
         <item itemvalue="JUnit.JsonParserTests.tests" />
+        <item itemvalue="JUnit.JsonParserTests.test2" />
+        <item itemvalue="JUnit.JsonParserTests.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -123,11 +151,18 @@
       <option name="presentableId" value="Default" />
       <updated>1578299299784</updated>
       <workItem from="1578299302778" duration="7630000" />
+      <workItem from="1578307502588" duration="90000" />
+      <workItem from="1578308607192" duration="151000" />
+      <workItem from="1578359768465" duration="236000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="192" width="967" height="677" key="#Project_Structure" timestamp="1578300542258">
@@ -142,22 +177,26 @@
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
     <state x="718" y="234" key="#xdebugger.evaluate/0.27.1920.1010@0.27.1920.1010" timestamp="1578303706671" />
-    <state width="1874" height="264" key="GridCell.Tab.0.bottom" timestamp="1578306934436">
+    <state x="520" y="125" width="870" height="812" key="CommitChangelistDialog2" timestamp="1578359903984">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state width="1874" height="264" key="GridCell.Tab.0.bottom/0.27.1920.1010@0.27.1920.1010" timestamp="1578306934436" />
-    <state width="1874" height="264" key="GridCell.Tab.0.center" timestamp="1578306934432">
+    <state x="520" y="125" width="870" height="812" key="CommitChangelistDialog2/0.27.1920.1010@0.27.1920.1010" timestamp="1578359903984" />
+    <state width="1874" height="264" key="GridCell.Tab.0.bottom" timestamp="1578360002573">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state width="1874" height="264" key="GridCell.Tab.0.center/0.27.1920.1010@0.27.1920.1010" timestamp="1578306934432" />
-    <state width="1874" height="264" key="GridCell.Tab.0.left" timestamp="1578306934431">
+    <state width="1874" height="264" key="GridCell.Tab.0.bottom/0.27.1920.1010@0.27.1920.1010" timestamp="1578360002573" />
+    <state width="1874" height="264" key="GridCell.Tab.0.center" timestamp="1578360002573">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state width="1874" height="264" key="GridCell.Tab.0.left/0.27.1920.1010@0.27.1920.1010" timestamp="1578306934431" />
-    <state width="1874" height="264" key="GridCell.Tab.0.right" timestamp="1578306934434">
+    <state width="1874" height="264" key="GridCell.Tab.0.center/0.27.1920.1010@0.27.1920.1010" timestamp="1578360002573" />
+    <state width="1874" height="264" key="GridCell.Tab.0.left" timestamp="1578360002573">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state width="1874" height="264" key="GridCell.Tab.0.right/0.27.1920.1010@0.27.1920.1010" timestamp="1578306934434" />
+    <state width="1874" height="264" key="GridCell.Tab.0.left/0.27.1920.1010@0.27.1920.1010" timestamp="1578360002573" />
+    <state width="1874" height="264" key="GridCell.Tab.0.right" timestamp="1578360002573">
+      <screen x="0" y="27" width="1920" height="1010" />
+    </state>
+    <state width="1874" height="264" key="GridCell.Tab.0.right/0.27.1920.1010@0.27.1920.1010" timestamp="1578360002573" />
     <state width="1874" height="326" key="GridCell.Tab.1.bottom" timestamp="1578306934418">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
@@ -174,6 +213,10 @@
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
     <state width="1874" height="326" key="GridCell.Tab.1.right/0.27.1920.1010@0.27.1920.1010" timestamp="1578306934418" />
+    <state x="616" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1578359771231">
+      <screen x="0" y="27" width="1920" height="1010" />
+    </state>
+    <state x="616" y="358" key="com.intellij.ide.util.TipDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1578359771231" />
     <state x="632" y="427" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578299556250">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
@@ -188,7 +231,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/huchengzhen/json/JsonParserTests.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
